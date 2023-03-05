@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Shop</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_1">
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="name">
+                <a href=""><h1>Hossam Adel</h1></a>
+            </div>
+            <div class="icons">
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+        <nav class="nav_2">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="shop.html">Shop</a>
+            <a href="">Catalouge</a>
+            <a href="">New Arrival</a>
+            <a href="">Contact</a>
+        </nav>
+        <div class="open_page">
+            <h4><span>Home   /</span>   Shop</h4>
+        </div>
+    </header>
+    <section class="shopping">
+        <div class="left_side">
+            <div class="shop_category">
+                <h2>CATEGORIES</h2>
+                <div>
+                    <h4>Men</h4>
+                    <p>(2,220)</p>
+                </div>
+                <div>
+                    <h4>Women</h4>
+                    <p>(2,550)</p>
+                </div>
+                <div>
+                    <h4>Children</h4>
+                    <p>(2,140)</p>
+                </div>
+            </div>
+            <div class="shop_filter">
+                <div class="size">
+                    <h2>SIZE</h2>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" value="" id="s" name="Size">
+                            <label for="s"><b>Small (2,319)</b></label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="" id="m" name="Size">
+                            <label for="m"><b>Medium (1,460)</b></label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="" id="l" name="Size">
+                            <label for="l"><b>Large (1,460)</b></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="color">
+                    <h2>COLOR</h2>
+                    <div class="red">
+                        <i style="color: red;" class="fa-solid fa-circle"></i>
+                        <p>Red (2,400)</p>
+                    </div>
+                    <div class="blue">
+                        <i style="color: blue;" class="fa-solid fa-circle"></i>
+                        <p>Blue (2,400)</p>
+                    </div>
+                    <div class="green">
+                        <i style="color: green;" class="fa-solid fa-circle"></i>
+                        <p>Green (2,400)</p>
+                    </div>
+                    <div class="purple">
+                        <i style="color: purple;" class="fa-solid fa-circle"></i>
+                        <p>Purple (2,400)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right_side">
+            <div class="shop_nav">
+                <div class="shop_nav_left">
+                    <h1>Shop All</h1>
+                </div>
+                <div class="shop_nav_right">
+                    <div class="latest">
+                        <select aria-label="Latest" name="Latest" id="latest" title="Latest">
+                            <option value="1">Men</option>
+                            <option value="2">Women</option>
+                            <option value="3">Children</option>
+                        </select>
+                    </div>
+                    <div class="reference">
+                        <select aria-label="Reference" name="Reference" id="reference" title="Reference">
+                            <option value="1">Relevence</option>
+                            <option value="2">Name A to Z</option>
+                            <option value="3">Name Z to A</option><hr>
+                            <option value="4">Price Low to High</option>
+                            <option value="5">Name High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="shop_container">
+                <div class="shop_list list1">
+                    <div class="shop_products">
+                        <img src="Images\cloth_1.jpg" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Tank top</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                    <div class="shop_products">
+                        <img src="Images\shoe.png" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Corater</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                    <div class="shop_products">
+                        <img src="Images\cloth_2.jpg" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Polo Shirt</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop_list list2">
+                    <div class="shop_products">
+                        <img src="Images\cloth_3.jpg" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>T-Shirt</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                    <div class="shop_products">
+                        <img src="Images\shoe.png" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Corater</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                    <div class="shop_products">
+                        <img src="Images\cloth_1.jpg" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Tank top</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop_list list3">
+                    <div class="shop_products">
+                        <img src="Images\shoe.png" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Corater</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                    <div class="shop_products">
+                        <img src="Images\cloth_1.jpg" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Tank top</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                    <div class="shop_products">
+                        <img src="Images\cloth_2.jpg" alt="" width="100%" height="200px">
+                        <div class="shop_products_txt">
+                            <a href="product.html"><p>Polo Shirt</p></a>
+                            <p class="p2">Finding perfect product</p>
+                            <p>30$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><hr>
+    <section class="categories">
+        <h1 class="title">Categories</h1>
+        <div class="collection">
+            <div>
+                <div class="collection_img">
+                    <img src="Images\women.jpg" alt="" width="400px" height="380px">
+                </div>
+                <div class="collection_txt">
+                    <p>COLLECTIONS</p>
+                    <h1>Women</h1>
+                </div>
+            </div>
+            <div>
+                <div class="collection_img">
+                    <img src="Images\children.jpg" alt="" width="400px" height="380px">
+                </div>
+                <div class="collection_txt">
+                    <p>COLLECTIONS</p>
+                    <h1>Children</h1>
+                </div>
+            </div>
+            <div>
+                <div class="collection_img">
+                    <img src="Images\men.jpg" alt="" width="400px" height="380px">
+                </div>
+                <div class="collection_txt">
+                    <p>COLLECTIONS</p>
+                    <h1>Men</h1>
+                </div>
+            </div>
+        </div>
+    </section><hr>
+    <footer>
+        <div class="foot_1">
+            <div class="foot_left">
+                <div class="head">
+                    <h1>Navigations</h1>
+                </div>
+                <div class="list">
+                    <div class="left_1">
+                            <ul>
+                                <li>Sell Online</li>
+                                <li>Fetures</li>
+                                <li>Shopping Cart</li>
+                                <li>Store Builder</li>
+                            </ul>
+                    </div>
+                    <div class="left_2">
+                            <ul>
+                                <li>Mobile Commerce</li>
+                                <li>Dropshoping</li>
+                                <li>Website Development</li>
+                            </ul>
+                    </div>
+                    <div class="left_3">
+                        <ul>
+                            <li>Point of Scale</li>
+                            <li>Hardware</li>
+                            <li>Software</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="foot_right">
+                <div class="right_1">
+                    <div class="head">
+                        <h1>Promo</h1>
+                    </div>
+                    <img src="Images\hero_1.jpg" alt="" width="360px" height="">
+                    <a href=""><h3>Finding your Perfect Shoes</h3></a>
+                    <p>Promo From January 15 <span> __ </span>25,2019</p>
+                </div>
+                <div class="right_2">
+                    <div class="head">
+                        <h1>Contant Info</h1>
+                    </div>
+                    <div class="info">
+                        <div class="location">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <p>Cairo ,Egypt ,Cairo2-Elsalam_City</p>
+                        </div>
+                        <div class="number">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+20 01128451510</p>
+                        </div>
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>hossam92920@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <div class="head">
+                            <h1>Suscribe</h1>
+                        </div>
+                        <form action="">
+                            <input class="email" type="email" placeholder="Email">
+                            <input class="submit" type="submit" value="SEND"> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot_2">
+            <p>copyright 2023 All right reserved | This Template Made By <span>Hossam Adel</span></p>
+        </div>
+    </footer>
+</body>
+</html>
